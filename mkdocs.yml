@@ -1,0 +1,30 @@
+site_name: Liyue Chen
+nav:
+  - Home: index.md
+  - Miscellaneous: Miscellaneous.md
+theme:
+  name: material
+  features:
+    - search.suggest
+    - navigation.instant
+    - navigation.tabs
+
+docs_dir: md_files
+site_dir: docs
+plugins:
+  - search:
+      lang:
+        - en
+google_analytics:
+  - UA-XXXXXXXX-X
+  - auto
+markdown_extensions:
+  - toc:
+      toc_depth: 0
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Liyue-Chen
+    - icon: fontawesome/brands/docker
+      link: https://github.com/Liyue-Chen
