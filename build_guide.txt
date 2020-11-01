@@ -5,5 +5,9 @@
 
 # document
 
-# when updating execute
+# when debug
+mkdocs serve
 mkdocs build
+
+# when updating execute
+mkdocs gh-deploy --config-file ./mkdocs.yml --remote-branch master

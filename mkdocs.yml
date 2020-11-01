@@ -52,7 +52,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Liyue-Chen
     - icon: fontawesome/brands/docker
-      link: https://github.com/Liyue-Chen
+      link: https://hub.docker.com/u/chenliyue
 
 extra_javascript:
   - javascripts/config.js
