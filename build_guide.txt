@@ -1,0 +1,9 @@
+# some Ph.D. website template
+# https://www.wangyunhe.site/
+# http://pjzhang.cc/
+# https://bingtan.me/
+
+# document
+
+# when updating execute
+mkdocs build

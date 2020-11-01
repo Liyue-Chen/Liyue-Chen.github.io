@@ -1,30 +1,60 @@
 site_name: Liyue Chen
 nav:
   - Home: index.md
-  - Miscellaneous: Miscellaneous.md
+  - Miscellaneous:
+      - UCTB Tutorial: UCTB_Tutorial.md
 theme:
   name: material
   features:
     - search.suggest
-    - navigation.instant
     - navigation.tabs
 
-docs_dir: md_files
-site_dir: docs
+
 plugins:
-  - search:
-      lang:
-        - en
+  - search
 google_analytics:
   - UA-XXXXXXXX-X
   - auto
+
 markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
   - toc:
       toc_depth: 0
-
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Liyue-Chen
     - icon: fontawesome/brands/docker
       link: https://github.com/Liyue-Chen
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
