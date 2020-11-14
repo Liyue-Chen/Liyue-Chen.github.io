@@ -9,11 +9,10 @@ theme:
     - search.suggest
     - navigation.tabs
 
-
 plugins:
   - search
 google_analytics:
-  - UA-XXXXXXXX-X
+  - G-9099QZMTTR
   - auto
 
 markdown_extensions:

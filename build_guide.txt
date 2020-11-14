@@ -4,8 +4,9 @@
 # https://bingtan.me/
 
 # document
+# https://www.mkdocs.org/user-guide/deploying-your-docs/
 
-# when debug
+# debug
 mkdocs serve
 mkdocs build
 
