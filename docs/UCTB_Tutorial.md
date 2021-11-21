@@ -30,7 +30,7 @@ UCTB document: https://uctb.github.io/UCTB/
 
 ```python
 tensorflow==1.13.1   # 推荐安装GPU版本
-python==3.6.5 +  # Python版本也不要太高
+python==3.6.5   # Python版本要求3.6 +
 ```
 
 ​	配置好python等环境后，需要安装UCTB工具箱，UCTB的工具箱可以从上面的repository的链接[下载](https://github.com/uctb/UCTB/ )，下载好工具箱后，进入UCTB根目录，执行安装指令：

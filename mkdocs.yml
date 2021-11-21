@@ -1,8 +1,6 @@
 site_name: Liyue Chen
 nav:
   - Home: index.md
-  - Miscellaneous:
-      - UCTB Tutorial: UCTB_Tutorial.md
 theme:
   name: material
   features:
