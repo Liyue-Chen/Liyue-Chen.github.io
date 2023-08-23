@@ -5,7 +5,7 @@ theme:
   name: material
   features:
     - search.suggest
-    - navigation.tabs
+    # - navigation.tabs
 
 plugins:
   - search
