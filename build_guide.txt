@@ -1,0 +1,15 @@
+# some Ph.D. website template
+# https://www.wangyunhe.site/
+# http://pjzhang.cc/
+# https://bingtan.me/
+
+# document
+# https://www.mkdocs.org/user-guide/deploying-your-docs/
+
+# debug
+mkdocs serve
+mkdocs build
+
+# when updating execute
+
+mkdocs gh-deploy --config-file ./mkdocs.yml --remote-branch master
